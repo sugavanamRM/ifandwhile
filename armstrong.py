@@ -6,10 +6,7 @@ while no>0:
 	rev = rev + (no%10)
 	no = no//10
 else:
-	print(rev)
-
-Result:
-7
+	print(rev)                     #Result:7
 
 """
 rev = 0 + {[34%10] = 4} -->4
@@ -27,10 +24,7 @@ while no>0:
 	rev = (rev *10) + (no%10)
 	no = no//10
 else:
-	print(rev)
-
-Result:
-43
+	print(rev)                    #Result:43
 
 EXPLANTION:
 rev = (rev*10) + (no%10)
@@ -42,7 +36,6 @@ nextloop
 rev = (rev*10) + (no%10)
 rev = (4*10) + (3%10) = 40 + 3
 no = 3//10 = 0
-
 ######################################################################
 #Armstrong number
 armstrong = 0
@@ -56,11 +49,11 @@ else:
 		print("Armstrong Number")
 	else:
 		print("Not a Armstrong Number")
-
 Result:
 Enter no:153
 Not a Armstrong Number
 
+EXPLANATION
 armstrong = armstrong + (rem*rem*rem)
 no = 153
 rem = no%10 = 153%10 = 3 
@@ -102,34 +95,9 @@ else:
 		print("Armstrong Number")
 	else:
 		print("Not a Armstrong Number")
-
 Result:
 Enter no:153
-Not a Armstrong Number
-
-armstrong = armstrong + (rem*rem*rem)
-no = 153
-rem = no%10 = 153%10 = 3 
-armstrong = 0 + (3*3*3) = 27
-no = no//10 = 153//10 = 15
-
-next loop
-
-no = 15
-armstrong = 27
-rem = no%10 = 15%10 = 5 
-armstrong = 27 + (5*5*5) = 152
-no = no//10 = 15//10 = 1
-
-next loop
-
-no = 1
-armstrong = 152
-rem = no%10 = 1%10 = 1 
-armstrong = 152 + (1*1*1) = 152 + 1
-no = no//10 = 1//10 = 0
-
-loop ends
+Armstrong Number
 
 final
 no = 153
