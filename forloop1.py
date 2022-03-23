@@ -5,7 +5,6 @@ else:
 	print(total)
 """
 explanation:
-
 total = 1 * 1 = 1
 total = 1 * 2 = 2
 total = 2 * 3 = 6
