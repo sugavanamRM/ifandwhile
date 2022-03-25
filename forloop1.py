@@ -5,7 +5,6 @@ else:
 	print(total)
 """
 explanation:
-
 total = 1 * 1 = 1
 total = 1 * 2 = 2
 total = 2 * 3 = 6
@@ -52,12 +51,13 @@ RESULT:
 
 IN WHILE LOOP:
 end=5
-while end<2:
+while end>2:
 	total = 1
 	for no in range(1,end+1):
 		total = total * no
 	else:
 		print(total)
+	end-=1
 ###########################################################################################
 def factorial(end):
 	total = 1
