@@ -24,7 +24,7 @@ s.add(10)
 s.add(20)
 print("add used for single value:",s)
 
-      --> op: add use for single value: {0, 1, 2, 3, 4, 10, 20}                     
+    --> op: add use for single value: {0, 1, 2, 3, 4, 10, 20}                     
 			
 l = [100,200,300]
 s.update(l)           # update used for adding multi elements
