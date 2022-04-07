@@ -32,4 +32,5 @@ while min<=max:
 		max = mid - 1
 else:
 	print('key not found')
-	
+
+both are same
